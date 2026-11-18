@@ -5,7 +5,7 @@
 
 export const profile = {
   name: 'Srinivas Vankudoth',
-  location: 'Khammam, Telangana, India',
+  location: 'Hyderabad, Telangana, India',
   subtitle: 'Final-Year Computer Science Engineering Student | Aspiring Software Engineer',
   intro: 'I build practical software solutions using Java, Python, web technologies, and databases.',
 
@@ -29,7 +29,7 @@ export const skills = [
   { title: 'Programming', items: ['Java', 'Python', 'C'] },
   { title: 'Web Development', items: ['HTML', 'CSS', 'JavaScript'] },
   { title: 'Database', items: ['MySQL', 'DBMS', 'SQL'] },
-  { title: 'Core Concepts', items: ['OOP', 'Data Structures', 'Operating Systems', 'Computer Networks'] },
+  { title: 'Core Concepts', items: ['OOP', 'Data Structures', 'Computer Networks'] },
 ]
 
 export const projects = [
@@ -49,7 +49,6 @@ export const projects = [
       'Database integration',
       'Responsive interface',
     ],
-    demo: '#', // >>> REPLACE <<< live demo URL
     github: '#', // >>> REPLACE <<< repository URL
   },
   {
@@ -63,7 +62,6 @@ export const projects = [
       'In simple terms: cloud servers receive many tasks at once, and deciding which task runs on which virtual machine affects speed and cost. This project searches for better task-to-machine assignments instead of assigning them blindly.',
     tech: ['Python', 'Cloud Computing', 'Optimization Algorithms'],
     features: [],
-    demo: '#',
     github: '#',
   },
   {
@@ -75,7 +73,6 @@ export const projects = [
       'A responsive e-commerce product interface displaying product information, pricing, ratings, reviews, and links to purchase products from platforms such as Amazon and Flipkart.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     features: [],
-    demo: '#',
     github: '#',
   },
 ]
@@ -87,7 +84,7 @@ export const education = [
     period: 'Final Year',
   },
   // >>> ADD LATER <<< Copy this block for each entry
-  { degree: 'Intermediate (MPC)', school: 'Jawahar Navodaya Vidyalaya', period: 'TW0', placeholder: true },
+  { degree: 'Intermediate (MPC)', school: 'Jawahar Navodaya Vidyalaya', period: '10+2', placeholder: true },
   { degree: 'School education (CBSE)', school: 'Jawahar Navodaya Vidyalaya', period: '6-10', placeholder: true },
 ]
 
@@ -101,8 +98,8 @@ export const interests = ['Cricket', 'Kabaddi', 'NCC']
 
 // >>> ADD YOUR CERTIFICATIONS HERE <<< Each entry becomes a card.
 export const certifications = [
-  { name: 'NCC', org: '2T BATALION', date: 'Feb 2023', },
-  { name: 'TASK FRONTEND DEVELOPMENT', org: 'Task organization', date: 'Aungest 2024' ,},
+  { name: 'HTML ADVANCE', org: 'Infosys springboard', date: 'August 2025' ,},
+  { name: 'TASK FRONTEND DEVELOPMENT', org: 'Task organization', date: 'August 2024' ,},
   { name: 'AMAZON AWS CERTIFIED DEVELOPER', org: 'Amazon organization', date: 'March 2025',},
   { name: 'JAVA DEVELOPER', org: 'Hackerrank organization', date: 'october2025',},
   { name: 'CISCO CERTIFIED NETWORK ASSOCIATE', org: 'Cisco organization', date: 'june 2025',},
